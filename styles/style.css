@@ -19,10 +19,17 @@ p {
     background-color: #E55473;
     color: #FFFFFF;
     border: none;
-    padding: 10px 18px;
+    padding: 12px 24px;
     border-radius: 4px;
     font-weight: 600;
 }
+
+span {
+    color: #E55473;
+}
+
+
+/* banner styles */
 
 #banner {
     height: 80vh;
@@ -30,6 +37,7 @@ p {
     justify-content: space-evenly;
     align-items: flex-end;
     background-color: rgb(229, 84, 115, 10%);
+    margin-bottom: 100px;
 }
 
 .banner-div {
@@ -43,4 +51,80 @@ p {
     display: flex;
     align-content: center;
     justify-content: center;
+}
+
+/* Hot Deals Styles */
+#deals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 84, 115, 10%);
+}
+
+/* Social Styles */
+#social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+#social-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-img {
+    margin: auto;
+    width: 20vw;
+    margin: 5px;
+}
+
+#forms {
+    margin: auto;
+    width: 84%;
+    margin-bottom: 80px;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Resources/Rectangle\ 9.png');
+    border-radius: 5px;
+}
+
+.forms-div {
+    margin-bottom: 20px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+input {
+    width: 40vw;
+    padding: 12px 24px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Footer Styles */
+footer {
+    color: #FFFFFF;
+    background-color: #111010;
+    margin-bottom: 0;
+    height: 45vh;
+    text-align: center;
+    padding: 40px;
+}
+
+footer p {
+    color: #FFFFFF;
+    margin-top: 50px;
 }
