@@ -107,31 +107,35 @@ span {
     align-items: center;
     justify-content: center;
     background-color: rgb(229, 84, 115, 10%);
+    padding: 50px;
 }
 
-/* category styles */
-
-#flower-category {
-    display: flex;
-    justify-content: center;
+/* Category styles */
+#category-text {
+    text-align: center;
 }
 
 #categories {
     display: flex;
-    margin: 30px;
+    justify-content: center;
 }
 
-.category {
-    border: 1px solid black;
-    height: 300px;
-    width: 240px;
-    margin: 10px;
+.category-div {
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#category-1 {
-    background-image: url('../Resources/birthday.jpeg');
+#category-img {
+    width: 100%;
+    height: auto;
 }
 
+#try-button {
+    width: 10vw;
+}
 
 /* Social Styles */
 #social {
